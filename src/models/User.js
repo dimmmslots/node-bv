@@ -3,7 +3,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 const database = require("../configs/database");
 
 const User = database.define("user", {
-  id: {
+  user_id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     allowNull: false,
@@ -17,6 +17,8 @@ const User = database.define("user", {
     type: DataTypes.STRING,
     allowNull: false,
   },
+}, {
+    timestamps: false,
 });
 
 module.exports = User;

@@ -17,6 +17,8 @@ const Favorite = database.define("favorite", {
         type: DataTypes.INTEGER,
         allowNull: false,
     },
+}, {
+    timestamps: false,
 });
 
 module.exports = Favorite;
