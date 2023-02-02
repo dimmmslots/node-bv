@@ -10,5 +10,15 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "bv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
